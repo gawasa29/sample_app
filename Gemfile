@@ -5,7 +5,7 @@ ruby '2.6.3'#(対象のRubyバージョン)
 
 gem 'rails', '~> 6.0.3', '>= 6.0.3.2' #(対象のRailsバージョン)
 gem 'sqlite3', '~> 1.4'#(sqlite3をインストール)
-gem 'puma', '~> 4.1'#(Railsを動かすためのサーバ)
+gem 'puma', '~> 4.3'#(Railsを動かすためのサーバ)
 gem 'sass-rails', '>= 6'  #(Sassが使える)
 gem 'webpacker', '~> 4.0'#(webpackerが使える)
 gem 'turbolinks', '~> 5'#(Ajaxに置き換え.高速化するgem)
